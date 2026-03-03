@@ -1,7 +1,7 @@
-import AppLayout from "../components/layout/AppLayout";
-import StatsGrid from "../components/dashboard/StatsGrid";
-import Toolbar from "../components/dashboard/Toolbar";
-import ScanTable from "../components/dashboard/ScanTable";
+import AppLayout from "../Components/layout/AppLayout";
+import StatsGrid from "../Components/dashboard/StatsGrid";
+import Toolbar from "../Components/dashboard/Toolbar";
+import ScanTable from "../Components/dashboard/ScanTable";
 
 const Dashboard = () => {
   return (
