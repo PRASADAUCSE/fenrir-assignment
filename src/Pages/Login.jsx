@@ -1,5 +1,5 @@
 import React from "react";
-import LoginForm from "../Components/RightLoginSection";
+import LoginForm from "../components/RightLoginSection";
 import { useNavigate } from "react-router-dom";
 
 

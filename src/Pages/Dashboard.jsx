@@ -1,4 +1,4 @@
-import AppLayout from "../Components/layout/AppLayout";
+import AppLayout from "../components/layout/AppLayout";
 import StatsGrid from "../components/dashboard/StatsGrid";
 import Toolbar from "../components/dashboard/Toolbar";
 import ScanTable from "../components/dashboard/ScanTable";
