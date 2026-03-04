@@ -36,14 +36,14 @@ Folder struture:
   src:
     Components:
       - Login secton
-      dashboard:
+      1.dashboard:
          - Scan table
          - Severity card
          - status grid
          - staus badge
          - tool bar
          - vulnerability badge
-      layout:
+      2.layout:
          - App layout
          - side bar
    context:
