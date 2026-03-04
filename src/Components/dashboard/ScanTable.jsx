@@ -77,7 +77,8 @@ const ScanTable = () => {
     const navigate = useNavigate();
   return (
     <div className="bg-white dark:bg-[#1A1A1A] rounded-2xl shadow-sm border  border-gray-200 dark:border-gray-800 overflow-hidden">
-      <table className="w-full text-sm">
+       <div className="overflow-x-auto">
+      <table className="min-w-[700px] w-full text-sm">
         <thead className="bg-gray-50 text-left text-gray-600">
           <tr>
             <th className="px-6 py-4">Scan Name</th>
@@ -116,6 +117,7 @@ const ScanTable = () => {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
   );
 };

@@ -6,13 +6,15 @@ import ScanTable from "../Components/dashboard/ScanTable";
 const Dashboard = () => {
   return (
     <AppLayout>
-      <h1 className="text-3xl font-semibold mb-8 text-gray-900 dark:text-gray-100">
+      <h1 className="text-2xl lg:text-3xl font-semibold mb-6 lg:mb-8 text-gray-900 dark:text-gray-100">
         Dashboard
       </h1>
 
-      <StatsGrid />
-      <Toolbar />
-      <ScanTable />
+      <div className="space-y-6">
+        <StatsGrid />
+        <Toolbar />
+        <ScanTable />
+      </div>
     </AppLayout>
   );
 };
