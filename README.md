@@ -1,16 +1,56 @@
-# React + Vite
+Assignment:
+  - created project using vite
+  - configured React setup
+  - installed and configured Tailwind css
+  - cleaned initial project structure
+  - Planned folder architecture(Pages, components, layout, context)
+  - created reusable layout wrapper (App layout)
+  - Build sidebar navigation component
+  - Implemented route-based page structure
+  - Installed and configured React Router
+  - Implemented routing in App.jsx
+  - Added fallback 404 route
+  - Designed login page layout
+  - Built login form reusable component
+  - Implemented redirect using useNavigate
+  - Built Dashboard UI structure
+  - Created reuable severrity card component
+  - implemented progress section with step tracker
+  - added tab-based activity/ verification logs
+  - Built FIndings panel
+  - Added bottom status summary section
+  - Implementd global theme management using context api
+  - configured tailwind dark mode using class strategy
+  - persisted theme using local storage
+  - Deployed using vercel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tech Stack:
+ - React
+ - vite
+ - Tailwind CSS
+ - React Router
+ - Context API
+ - vercel (for deployment)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Folder struture:
+  src:
+    Components:
+      - Login secton
+      dashboard:
+         - Scan table
+         - Severity card
+         - status grid
+         - staus badge
+         - tool bar
+         - vulnerability badge
+      layout:
+         - App layout
+         - side bar
+   context:
+     - theme contenxt(global state for the theme changing)
+   pages:
+     - Dashboard page
+     - Login page
+     - Scan Details page
+     
+  
