@@ -28,7 +28,7 @@ const LoginForm = () => {
         <div>
 
           <input
-            type="email"
+            type="text"
             placeholder="First Name*"
             className="w-full px-4 py-2 border mt-3 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none transition"
           />
@@ -36,7 +36,7 @@ const LoginForm = () => {
 
         <div>
           <input
-            type="email"
+            type="text"
             placeholder="Last Name*"
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none transition"
           />
